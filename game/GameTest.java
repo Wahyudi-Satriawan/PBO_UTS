@@ -5,7 +5,7 @@ import java.util.List;
 
 public class GameTest {
     public static void main(String[] args) {
-        Player player = new Player("Wahyu", 120, 25, 5, new LevelScaledStrategy(2));
+        Player player = new Player("Wahyu", 200, 25, 10, new LevelScaledStrategy(2));
         
         player.addSkill(new HealSkill(15));
         player.addSkill(new PiercingStrike(1.2));
